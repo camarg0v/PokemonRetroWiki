@@ -46,7 +46,7 @@ const Regions = () => {
                 <img
                   src={region.map}
                   alt={`Mapa de ${region.name}`}
-                  className="w-full max-w-md border-4 border-retro-black pixelated"
+                  className="w-full max-w-md border-4 border-retro-black"
                 />
               </div>
             </Card>
