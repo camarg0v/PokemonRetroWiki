@@ -4,23 +4,23 @@ import { Card } from "@/components/ui/card";
 const regions = [
   {
     name: "Kanto",
-    map: "https://static.wikia.nocookie.net/victoryroad/images/d/de/LGPEArt_Kanto.png/revision/latest?cb=20180712142838",
+    map: "https://static.wikia.nocookie.net/victoryroad/images/d/de/LGPEArt_Kanto.png",
   },
   {
     name: "Johto",
-    map: "https://static.wikia.nocookie.net/victoryroad/images/3/3c/HGSSArt_Johto.png/revision/latest?cb=20180712140112",
+    map: "https://static.wikia.nocookie.net/victoryroad/images/3/3c/HGSSArt_Johto.png",
   },
   {
     name: "Hoenn",
-    map: "https://static.wikia.nocookie.net/victoryroad/images/b/b4/ORASArt_Hoenn.png/revision/latest?cb=20170910174759",
+    map: "https://static.wikia.nocookie.net/victoryroad/images/b/b4/ORASArt_Hoenn.png",
   },
   {
     name: "Sinnoh",
-    map: "https://static.wikia.nocookie.net/victoryroad/images/5/52/PtArt_Sinnoh.png/revision/latest?cb=20180707174341",
+    map: "https://static.wikia.nocookie.net/victoryroad/images/5/52/PtArt_Sinnoh.png",
   },
   {
     name: "Unova",
-    map: "https://static.wikia.nocookie.net/victoryroad/images/5/51/B2W2Art_Unova.png/revision/latest?cb=20170819201153",
+    map: "https://static.wikia.nocookie.net/victoryroad/images/5/51/B2W2Art_Unova.png",
   },
 ];
 
