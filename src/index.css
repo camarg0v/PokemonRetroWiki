@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 43 100% 95%;
+    --foreground: 0 0% 13%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 13%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 13%;
+
+    --primary: 4 90% 58%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 48 100% 67%;
+    --secondary-foreground: 0 0% 13%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 217 91% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 80%;
+    --input: 0 0% 80%;
+    --ring: 4 90% 58%;
+
+    --radius: 0.25rem;
+    
+    --retro-red: 4 90% 58%;
+    --retro-blue: 217 91% 60%;
+    --retro-yellow: 48 100% 67%;
+    --retro-green: 142 76% 36%;
+    --retro-black: 0 0% 13%;
+  }
+
+  .dark {
+    --background: 0 0% 13%;
+    --foreground: 43 100% 95%;
+
+    --card: 0 0% 20%;
+    --card-foreground: 43 100% 95%;
+
+    --popover: 0 0% 20%;
+    --popover-foreground: 43 100% 95%;
+
+    --primary: 4 90% 58%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 48 100% 67%;
+    --secondary-foreground: 0 0% 13%;
+
+    --muted: 0 0% 25%;
+    --muted-foreground: 0 0% 70%;
+
+    --accent: 217 91% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 30%;
+    --input: 0 0% 30%;
+    --ring: 4 90% 58%;
+    
+    --retro-red: 4 90% 58%;
+    --retro-blue: 217 91% 60%;
+    --retro-yellow: 48 100% 67%;
+    --retro-green: 142 76% 36%;
+    --retro-black: 0 0% 13%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Press Start 2P', monospace;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
