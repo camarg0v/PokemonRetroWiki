@@ -9,10 +9,10 @@ const Index = () => {
       <div className="container mx-auto px-4 py-16">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-4xl sm:text-6xl font-bold mb-8 text-primary animate-fade-in">
-            RETRO POKÉ SAGA
+            POKÉMON RETRO WIKI
           </h1>
           <p className="text-lg sm:text-xl mb-12 text-foreground">
-            Explore o mundo clássico de Pokémon com sprites originais das gerações 1 a 5!
+            Explore o mundo clássico de Pokémon!
           </p>
           
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12">
